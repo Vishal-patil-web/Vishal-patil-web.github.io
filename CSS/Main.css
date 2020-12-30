@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #f2f5f7;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    height: 6rem;
+    width: 100vw;
+    background-color: #fff;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    position: fixed;
+    z-index: 10;
+}
+
+
+.logo{
+    padding:1vh 1vw;
+    text-align: center;
+    margin-left: 30px;
+}
+.logo img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none; 
+    width: 80vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    margin: 0 0.7vw;
+}
+.nav-links li a:hover {
+    color: #00c3ff;
+}
+.nav-links li {
+    position: relative;
+    animation: 0.2s;
+}
+
+.login-button{
+    background-color: #0160e7;
+    border: 1.5px solid #0160e7;
+    border-radius: 2em;
+    font-weight: bold;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.16);
+    cursor: pointer;
+
+}
+.login-button:hover {
+    color: white;
+    background-color: black;
+    border:1.5px solid #0160e7;
+    transition: all ease-in-out 350ms;
+}
+
+
+.hamburger div{
+    width: 30px;
+    height:3px;
+    background: #0160e7;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.a-1 {
+  float: left;
+  width: 50%;
+   color: #000;
+   font-weight: bold;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.a-2 {
+  float: left;
+  width: 50%;
+  color: black;
+   margin-top: 100px;
+  padding: 10px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.a-2h3{
+    font-weight: bold;
+    margin-left: 40px;
+    padding-top: 10px;
+    color: #000;
+}
