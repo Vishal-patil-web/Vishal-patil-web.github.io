@@ -114,9 +114,26 @@ nav{
 }
 
 
-.a-2h3{
-    font-weight: bold;
-    margin-left: 40px;
-    padding-top: 10px;
-    color: #000;
+
+.bg-text {
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-h1{
+    font-size:70px;font-family: 'Hanalei Fill', cursive;
+}
+.home-h2{
+    font-family: 'Hanalei Fill', cursive;
 }
