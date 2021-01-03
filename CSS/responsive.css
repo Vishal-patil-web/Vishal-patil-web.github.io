@@ -10,6 +10,16 @@
 }
 
 
+/* media screen size for 1200px */
+@media screen and (max-width: 1164px){
+        .column {
+    width: 95%;
+    margin-left:10px;
+  }
+
+
+}
+
 
 /* media screen size for 1000px */
 @media screen and (max-width: 1000px){}
@@ -35,7 +45,7 @@
     }
     .nav-links{
         position: fixed;
-        background: #f2f2f2;
+        background: #000;
         height: 100vh;
         width: 100%;
         flex-direction: column;
