@@ -27,6 +27,7 @@
 
         
  <button class="login-button">Contact Us</button>
+ <button onclick="myFunction()">Toggle dark mode</button>
         </ul>
 
     </nav>
@@ -35,57 +36,35 @@
                                             <!--Home Section!-->
 
 
+    <div class="intro">
+      <div class="intro-text">
+        <h1 class="hide">
+          <span class="text">Creating inovation</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">For Everyday</span>
+        </h1>
+        <h1 class="hide">
+          <span class="text">people.</span>
+        </h1>
+      </div>
+    </div>
+    <div class="slider"></div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+  
+    <script type="text/javascript">
+        const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
-
-
-<div class="div-home"  style="background-image: url('img/bg-u.png');">
-   <div class="container for-about" data-aos="fade-down" style="color:white;text-align:center;">
-    <div class="bg-text" style="margin-top:-200px;" >
-  <h2 class="home-h2">forgot about your metrics</h2>
-  <h1 class="home-h1" >We are mining bad ideas.</h1>
-
-</div></div>
-
-</div>
-
-
-
-
-
-
-
-
-<div class="div-help">
-
-
-
-<div class="row">
-  <div class="column" >
-    <h2 class="c-h2">Python</h2>
-    <p class="c-p1">Python is an interpreted, high-level and general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.</p>
-  </div>
-  <div class="column" >
-    <h2 class="c-h2">React js</h2>
-    <p class="c-p1">React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.</p>
-  </div>
-  <div class="column">
-    <h2 class="c-h2">Java</h2>
-    <p class="c-p1">Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. </p>
-  </div>
-  <div class="column" >
-    <h2 class="c-h2">Html</h2>
-    <p class="c-p1">Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
-
-  </div>
-</div>
-
-</div>
-
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#66ccff" fill-opacity="1" d="M0,32L48,42.7C96,53,192,75,288,112C384,149,480,203,576,234.7C672,267,768,277,864,250.7C960,224,1056,160,1152,149.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-
-
-
+tl.to(".text", { y: "0%", duration: 1, stagger: 0.25 });
+tl.to(".slider", { y: "-100%", duration: 1.5, delay: 0.5 });
+tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
+tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
+tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+    </script>
 
    <script src="Scripts/nav.js"></script>
 <link rel="shortcut icon" href="img/favicon.ico"/>
