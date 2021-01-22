@@ -12,12 +12,7 @@
 
 /* media screen size for 1200px */
 @media screen and (max-width: 1164px){
-        .column {
-    width: 95%;
-    margin-left:10px;
-  }
-
-
+  
 }
 
 
@@ -88,23 +83,6 @@
     li.fade{
         opacity: 1;
     }
-
-
-
-.home-h2{
-    font-size:17px;
-}
-  .home-h1{
-    font-size:30px;
-  }
-
-
-  .column {
-    width: 95%;
-    margin-left:10px;
-  }
-
-
 
 
 
