@@ -157,7 +157,7 @@ nav{
 .hero-image {
   background-image: url("images/trees.png");
   background-color: #cccccc;
-  height: 600px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,3 +246,42 @@ nav{
 .multi-button button:active {
   transform: translateY(var(--border-size));
 }
+
+.h1-home-img{
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header{
+font-size:45px;
+margin:2%;
+margin-top:50px;
+font-family: 'Roboto Mono', monospace;
+}
+
+.header-info{
+font-size:15px;
+margin:2%;
+
+font-family: 'Poppins', sans-serif;
+}
+
+div.image {
+   content:url("images/graphic boy.jpg");
+    width: 100%;
+  height: auto;
+}​
+
