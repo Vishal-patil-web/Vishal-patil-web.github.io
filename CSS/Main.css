@@ -10,7 +10,7 @@ body{
     background-color: #fff;
 }
 nav{
-    height: 6rem;
+    height: 5.2rem;
     width: 100vw;
     background-color: #000;
     box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
@@ -24,6 +24,7 @@ nav{
     padding:1vh 1vw;
     text-align: center;
     margin-left: 30px;
+    margin-top:-10px;
 }
 .logo img {
     height: 5rem;
@@ -58,6 +59,7 @@ nav{
     border: 1.5px solid #0160e7;
     border-radius: 2em;
     font-weight: bold;
+    max-height:45px;
     padding: 0.8rem 1.2rem;
     font-size: 1rem;
     color: #fff;
