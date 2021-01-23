@@ -285,4 +285,33 @@ div.image {
   height: auto;
 }​
 
+img {
+  width: 100%;
+  height: auto;
+  margin-left:-10px;
+}
 
+hr.new5 {
+  border: 4px solid #0160e7;
+  border-radius: 0px;
+  max-width:50px;
+  margin-left:10px;
+  margin-top:5px;
+}
+
+div.Himage {
+   content:url("images/web lan.png");
+    width: 100%;
+  height: auto;
+}​
+
+.head{
+
+}
+
+.header-info{
+font-size:15px;
+margin:2%;
+text-align: justify;
+font-family: 'Poppins', sans-serif;
+}
