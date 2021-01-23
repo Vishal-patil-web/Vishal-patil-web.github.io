@@ -8,6 +8,7 @@
 body{
     overflow-x: hidden;
     background-color: #fff;
+
 }
 nav{
     height: 5.2rem;
@@ -47,7 +48,7 @@ nav{
     margin: 0 0.7vw;
 }
 .nav-links li a:hover {
-    color: #0160e7;
+  color: #ff471a;;
 }
 .nav-links li {
     position: relative;
@@ -55,8 +56,9 @@ nav{
 }
 
 .login-button{
-    background-color: #0160e7;
-    border: 1.5px solid #0160e7;
+   background: rgb(131,58,180);
+background: linear-gradient(336deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,67,40,1) 19%, 
+rgba(253,94,47,1) 44%, rgba(253,110,51,1) 55%, rgba(253,123,55,1) 64%, rgba(252,161,65,1) 94%, rgba(252,176,69,1) 100%);
     border-radius: 2em;
     font-weight: bold;
     max-height:45px;
@@ -65,6 +67,7 @@ nav{
     color: #fff;
    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.16);
     cursor: pointer;
+     border:2px solid #000;
 
 }
 .login-button:hover {
@@ -99,7 +102,7 @@ nav{
   align-items: center;
 }
 .slider {
-  background:#82B6D9;
+  background:#ffad99;
   position: fixed;
   top: 0;
   left: 0;
@@ -149,8 +152,8 @@ nav{
 
 @keyframes Loading {
     0% { height: 20px; transform: translateY(0); background-color: #9B59B6; }
-    50% { height: 20px; transform: translateY(40px); background-color: #3498D6; }
-    100% { height: 20px; transform: translateY(0); background-color: #9B59B6; }
+    50% { height: 20px; transform: translateY(40px); background-color: #ff471a; }
+    100% { height: 20px; transform: translateY(0); background-color: #ff471a; }
 }
 
 
@@ -292,7 +295,7 @@ img {
 }
 
 hr.new5 {
-  border: 4px solid #0160e7;
+  border: 4px solid #ff471a;
   border-radius: 0px;
   max-width:50px;
   margin-left:10px;
@@ -305,13 +308,184 @@ div.Himage {
   height: auto;
 }​
 
-.head{
 
-}
 
 .header-info{
 font-size:15px;
 margin:2%;
 text-align: justify;
 font-family: 'Poppins', sans-serif;
+}
+
+
+.Three-width-column {
+  float: left;
+  width:33.33%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.columnA{
+  float: left;
+  width: 31%;
+  padding: 10px;
+  margin:15px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-bottom:-200px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.p{
+margin-top:10px;}
+
+.h2C{
+  margin-top:20px;
+}
+
+
+.columnB {
+  float: left;
+  width: 33.33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .columnB {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+ background-color:#f2f2f2;
+  margin:2%;
+}
+
+.h3A{
+  margin-top:20px;
+  margin-left:10px;
+  margin-bottom:10px;
+    font-weight: bold;
+}
+
+.p3A{
+  text-align: justify;
+  padding-right:30px;
+  padding-left:10px;
+  font-size:15px;
+}
+
+.button {
+  background-color:#f2f2f2;
+  margin-top:10px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+    box-shadow: 1px 1px 30px #aaa;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.button:hover {
+  background-color: #fff;
+   box-shadow: 1px 1px 30px #ff471a;
+}
+
+
+.column1 {
+  float: left;
+  width: 70%;
+  padding: 10px;
+ color:#fff;
+}
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column1 {
+    width: 100%;
+  }
+  .column2 {
+    width: 100%;
+  }
+}
+
+.button2 {
+  background-color:#fff;
+  margin-top:10px;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 2px;
+  float: left;
+  margin-left:60px;
+  cursor: pointer;
+  border-radius: 16px;
+    box-shadow: 1px 1px 30px #aaa;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.button2:hover {
+  background-color: #f2f2f2;
+ 
+}
+
+@media screen and (max-width: 600px) {
+.button2{
+  margin-left:5px;
+}
 }
