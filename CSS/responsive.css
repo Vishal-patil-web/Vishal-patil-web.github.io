@@ -1,175 +1,181 @@
-			@media only screen and (max-width: 600px){
-				
-				.email{
-					visibility: hidden;
-				}
+@media only screen and (max-width: 600px){
+    .for-small-screens{
+        margin: 0;
+   position: relative;
+   cursor: none;
+   top: 50%;
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+   
+   }
 
-				 .h3-about{
-			  	margin-left:-40px;
-			  }
-			  .p-about{
-			  	margin-left:-40px;
-			  }
-			  .p-lan{
-			  	margin-left:-40px;
-			  }
-			  .lan{
-			  	margin-left:-40px;
-			  }
-			  .lan-r{
-			  	margin-left:30px;
-			  }
-			  .lan-ra{
-			  	margin-left:30px;
-			  }
-			  .h1-top{
-			   font-size:3rem;
+   .typing-container{
+    font-size:1.4rem;
+}
 
-			  }
-			  
-			  .for-small-screens{
-			  	 margin: 0;
-			  position: absolute;
-			  cursor: none;
-			  top: 50%;
-			  -ms-transform: translateY(-50%);
-			  transform: translateY(-50%);
-			  
-			  }
-			  .full-height{
-			  	 position: relative;
-			  }
+.h1-top{
+    font-size:3rem;
+ 
+   }
+   .p-top{
+    margin-top:200px;
+}
+.column1 {
+    width: 100%;
+  
+  }
+  .column2 {
+    width: 100%;
+    margin-top:40px;
+  }
 
-			  .p-top{
-			  	margin-top:200px;
-			  }
-			  .typing-container{
-			  	font-size:1.6rem;
-			  }
+  .h3-about{
+    margin-left:-40px;
+  
+}
+.p-about{
+    margin-left:-40px;
+   
+}
+.p-lan{
+    margin-left:-40px;
+  
+}
+.lan{
+    margin-left:-40px;
+   
+}
+.lan-r{
+    margin-left:30px;
+   
+}
+.lan-ra{
+    margin-left:30px;
+    
+}
+.h1-top{
+ font-size:3rem;
 
-			  
-			}
-
-
-			@media only screen and (max-width: 400px){
-			   .h1-top{
-			   font-size:2.3rem;
-
-			  }
-			  .h1-sec-top{
-			    font-size:2.5rem;
-			  }
+}
 
 
-			}
+}
 
 
+@media only screen and (max-width: 400px){
+    .h1-top{
+    font-size:2.3rem;
+    margin-top:5%;
+ 
+   }
+   .typing-container{
+    font-size:1.2rem;
+}
+ 
+ }
+ 
+ @media only screen and (max-width: 700px){
 
+    .h2-top{
+       margin-top:5%;
+    }
+    
+    }
+ 
+    
 
-			@media only screen and (max-width: 900px){
-			   .p-top{
-			    margin-top:160px;
-			  }
-			}
+@media only screen and (max-width: 900px){
+    .p-top{
+     margin-top:160px;
+   }
+ }
+ 
+ @media only screen and (max-width: 1300px){
+    .p-top{
+     margin-top:160px;
+   }
+ }
+ 
+ @media screen and (max-width: 745px){
+     .columna1{
+         width: 100%;
+     }
+ }
+ 
+@media screen and (max-width: 800px){
+    .p-top{
+        margin-top:190px;
+      }
+    .icon-bar{
+      visibility:hidden;
+    }
+  
+      nav{
+          position: fixed;
+          z-index: 5;
+      }
+      .hamburger{
+          display:block;
+          position: absolute;
+          cursor: pointer;
+          right: 5%;
+          top: 50%;
+          transform: translate(-5%, -50%);
+          z-index: 2;
+          transition: all 0.7s ease;
+      }
+      .nav-links{
+          position: fixed; 
+          background: #131418;
+          height: 100vh;
+          width: 100%;
+          flex-direction: column;
+          clip-path: circle(50px at 90% -20%);
+          -webkit-clip-path: circle(50px at 90% -10%);
+          transition: all 1s ease-out;
+          pointer-events: none;
+      }
+      .nav-links.open{
+          clip-path: circle(1000px at 90% -10%);
+          -webkit-clip-path: circle(1000px at 90% -10%);
+          pointer-events: all;
+      }
+      .nav-links li{
+          opacity: 0;
+      }
+      .nav-links li:nth-child(1){
+          transition: all 0.5s ease 0.2s;
+      }
+      .nav-links li:nth-child(2){
+          transition: all 0.5s ease 0.4s;
+      }
+      .nav-links li:nth-child(3){
+          transition: all 0.5s ease 0.6s;
+      }
+      .nav-links li:nth-child(4){
+          transition: all 0.5s ease 0.7s;
+      }
+      .nav-links li:nth-child(5){
+          transition: all 0.5s ease 0.8s;
+      }
+      .nav-links li:nth-child(6){
+          transition: all 0.5s ease 0.9s;
+          margin: 0;
+      }
+      .nav-links li:nth-child(7){
+          transition: all 0.5s ease 1s;
+          margin: 0;
+      }
+      li.fade{
+          opacity: 1;
+      }
+  }
+  
+ @media only screen and (max-width: 1500px){
+   .p-4{
+     margin-left:25%;
+     margin-right:25%;
+   }
+ }
 
-			@media only screen and (max-width: 1300px){
-			   .p-top{
-			    margin-top:160px;
-			  }
-			}
-
-			@media only screen and (max-width: 800px){
-			   .p-top{
-			    margin-top:190px;
-			  }
-			}
-
-
-			@media only screen and (max-width: 1500px){
-			  .p-4{
-			    margin-left:25%;
-			    margin-right:25%;
-			  }
-			}
-
-
-			@media screen and (max-width: 800px){
-			  .icon-bar{
-			    visibility:hidden;
-			  }
-
-			    nav{
-			        position: fixed;
-			        z-index: 3;
-			    }
-			    .hamburger{
-			        display:block;
-			        position: absolute;
-			        cursor: pointer;
-			        right: 5%;
-			        top: 50%;
-			        transform: translate(-5%, -50%);
-			        z-index: 2;
-			        transition: all 0.7s ease;
-			    }
-			    .nav-links{
-			        position: fixed;
-			        background: #131418;
-			        height: 100vh;
-			        width: 100%;
-			        flex-direction: column;
-			        clip-path: circle(50px at 90% -20%);
-			        -webkit-clip-path: circle(50px at 90% -10%);
-			        transition: all 1s ease-out;
-			        pointer-events: none;
-			    }
-			    .nav-links.open{
-			        clip-path: circle(1000px at 90% -10%);
-			        -webkit-clip-path: circle(1000px at 90% -10%);
-			        pointer-events: all;
-			    }
-			    .nav-links li{
-			        opacity: 0;
-			    }
-			    .nav-links li:nth-child(1){
-			        transition: all 0.5s ease 0.2s;
-			    }
-			    .nav-links li:nth-child(2){
-			        transition: all 0.5s ease 0.4s;
-			    }
-			    .nav-links li:nth-child(3){
-			        transition: all 0.5s ease 0.6s;
-			    }
-			    .nav-links li:nth-child(4){
-			        transition: all 0.5s ease 0.7s;
-			    }
-			    .nav-links li:nth-child(5){
-			        transition: all 0.5s ease 0.8s;
-			    }
-			    .nav-links li:nth-child(6){
-			        transition: all 0.5s ease 0.9s;
-			        margin: 0;
-			    }
-			    .nav-links li:nth-child(7){
-			        transition: all 0.5s ease 1s;
-			        margin: 0;
-			    }
-			    li.fade{
-			        opacity: 1;
-			    }
-			}
-
-
-			@media only screen and (max-width: 700px){
-
-			.h2-top{
-			   margin-top:5%;
-			}
-
-			}
-
-			@media screen and (max-width: 600px) {
-			  .columnz {
-			    width: 100%;
-			  }
-			}
+ 
