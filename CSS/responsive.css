@@ -9,9 +9,7 @@
    
    }
 
-   .typing-container{
-    font-size:1.4rem;
-}
+  
 
 .h1-top{
     font-size:3rem;
@@ -57,6 +55,26 @@
  font-size:3rem;
 
 }
+
+::-webkit-scrollbar {
+   display: none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    display: none;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    display: none;
+  }
+
 
 
 }
@@ -110,6 +128,9 @@
       visibility:hidden;
     }
   
+    .vl2{
+        visibility: hidden;
+    }
       nav{
           position: fixed;
           z-index: 5;
